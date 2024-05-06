@@ -11,7 +11,7 @@ function validateFields() {
         document.getElementById("inputEmailHelp").innerHTML = "Endereço de e-mail incorreto!";
     } 
     else{
-        document.getElementById("inputEmailHelp").innerHTML = "";
+        document.getElementById("inputEmailHelp").innerHTML = "Entrou";
     }
 
     var yearValidation = Ano.validarAno(year);
@@ -20,7 +20,7 @@ function validateFields() {
        document.getElementById("inputYearHelp").innerHTML = "Ano inválido!";
     }
     else{
-        document.getElementById("inputYearHelp").innerHTML = "";
+        document.getElementById("inputYearHelp").innerHTML = "Entrou";
     }
 
     let passStrength = Senha.validarSenha(name,year,password);
