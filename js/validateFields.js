@@ -17,8 +17,7 @@ function validateFields() {
     var yearValidation = Ano.validarAno(year);
 
     if(yearValidation === false){
-       document.getElementById("inputPasswordHelp").innerHTML = "Ano inválido!";
-        document.getElement
+       document.getElementById("inputYearHelp").innerHTML = "Ano inválido!";
     }
     else{
         document.getElementById("inputYearHelp").innerHTML = "";
